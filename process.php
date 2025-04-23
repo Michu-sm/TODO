@@ -9,10 +9,10 @@
 
 <?php
   /*Database Connection*/
-  $host = 'localhost';
-  $username = 'root';
-  $password = '';
-  $database = 'dm';
+  $host = 'mysql-michals.mysql.database.azure.com';
+  $username = 'adminmichal@mysql-michals';
+  $password = 'Lab2025!';
+  $database = 'todo_db';
   Global $dbconfig;
   $dbconfig = mysqli_connect($host,$username,$password,$database) or die("An Error occured while connecting to the database");
 ?>
